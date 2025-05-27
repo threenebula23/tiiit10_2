@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Документация для проекта tiiit10_2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            line-height: 1.6;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        pre {
+            background-color: #f4f4f4;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1>Документация для проекта tiiit10_2</h1>
+    <p>Этот проект реализует алгоритм пузырьковой сортировки на C++ для сортировки массива целых чисел по возрастанию.</p>
+    
+    <h2>Обзор</h2>
+    <p>Файл <code>main.cpp</code> содержит программу, которая:
+        <ul>
+            <li>Определяет массив целых чисел.</li>
+            <li>Выводит исходный массив.</li>
+            <li>Сортирует массив с помощью алгоритма пузырьковой сортировки.</li>
+            <li>Выводит отсортированный массив.</li>
+        </ul>
+    </p>
+    
+    <h2>Использование</h2>
+    <p>Для компиляции и запуска программы выполните:</p>
+    <pre><code>g++ main.cpp -o main
+./main
+</code></pre>
+    <p>Пример вывода:</p>
+    <pre><code>Исходный: 64 34 34 25 61 12 22 11 90 42 99
+Результат: 11 12 22 25 34 34 42 61 64 90 99
+</code></pre>
+    
+    <h2>Описание алгоритма</h2>
+    <p>Алгоритм пузырьковой сортировки сравнивает соседние элементы массива и меняет их местами, если они находятся в неправильном порядке. Процесс повторяется, пока не потребуется больше перестановок.</p>
+    
+    <h2>Как внести вклад</h2>
+    <p>Чтобы внести вклад в проект:
+        <ol>
+            <li>Создайте форк репозитория.</li>
+            <li>Создайте новую ветку: <code>git checkout -b ваша-ветка</code>.</li>
+            <li>Внесите изменения и закоммитьте: <code>git commit -m "Ваши изменения"</code>.</li>
+            <li>Отправьте изменения в ваш форк: <code>git push origin ваша-ветка</code>.</li>
+            <li>Создайте pull request.</li>
+        </ol>
+    </p>
+    
+    <footer>
+        <p>Сгенерировано для проекта tiiit10_2. Хостится на <a href="https://github.com/bzzzil/tiiit10_2">GitHub</a>.</p>
+    </footer>
+</body>
+</html>
